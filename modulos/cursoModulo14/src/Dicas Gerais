@@ -1,0 +1,13 @@
+No vídeo 14.2 
+   A conclusão é que o appmodule importou o componente
+   botoes que foi gerado através do comando 
+   ng generate component botoes/botao-grande --skipTests
+
+   lembrando que no decorator do módulo botoes.module
+   deve-se exportar o exports: [BotaoGrandeComponent]
+
+   e no módulo app deve-se importar o módulo BotõesModule.
+
+   
+
+Continuar a partir do vídeo 14.3
