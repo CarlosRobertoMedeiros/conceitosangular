@@ -11,3 +11,16 @@ No vídeo 14.2
    
 
 Continuar a partir do vídeo 14.3
+
+    ng generate module navegacao = cria o módulo navegação
+    ng g c navegacao/menu --skipTests = cria o componente dentro do modulo navegacao pulando os testes
+    Após isso temos que exportar o componente no arquivo navegacao.module.ts
+    
+    Ex.: 
+    exports:[
+        MenuComponent
+    ],
+
+
+
+
